@@ -1,0 +1,200 @@
+<mvc:View
+  controllerName="firstapp.project1.controller.View1"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns:core="sap.ui.core"
+  xmlns:f="sap.ui.layout.form"
+  xmlns:tnt="sap.tnt"
+  xmlns="sap.m">
+  <Page title="{i18n>appDescription}" enableScrolling="false" >
+    <Button
+      text="Toggle Collapse/Expand"
+      icon="sap-icon://menu2"
+      press=".onCollapseExpandPress" />
+
+    <!-- MAIN HORIZONTAL LAYOUT -->
+    <HBox width="100%" height="100%">
+
+      <!-- LEFT SIDE NAVIGATION -->
+      <tnt:SideNavigation
+    id="sideNavigation"
+    expanded="true"
+    class="sapUiTinyMarginBegin">
+
+    <tnt:NavigationList>
+
+        <!-- Home -->
+        <tnt:NavigationListItem
+            text="View1"
+            icon="sap-icon://home"
+            press="onView1Press" />
+
+        <!-- Group -->
+        <tnt:NavigationListGroup text="Views">
+
+            <tnt:NavigationListItem
+                text="View2"
+                icon="sap-icon://display"
+                press="onView2Press" />
+
+            <tnt:NavigationListItem
+                text="View3"
+                icon="sap-icon://employee"
+                press="onView3Press" />
+
+            <tnt:NavigationListItem
+                text="View4"
+                icon="sap-icon://map"
+                press="onView4Press" />
+
+            <tnt:NavigationListItem
+                text="View5"
+                icon="sap-icon://flight"
+                press="onView5Press" />
+
+            <tnt:NavigationListItem
+                text="View6"
+                icon="sap-icon://mileage"
+                press="onView6Press" />
+
+            <tnt:NavigationListItem
+                text="View7"
+                icon="sap-icon://people-connected"
+                press="onView7Press" />
+
+            <tnt:NavigationListItem
+                text="View8"
+                icon="sap-icon://activity-individual"
+                press="onView8Press" />
+             <tnt:NavigationListItem
+                text="View9"
+                icon="sap-icon://mileage"
+                press="onView9Press" />
+
+        </tnt:NavigationListGroup>
+
+    </tnt:NavigationList>
+</tnt:SideNavigation>
+
+
+      <!-- RIGHT CONTENT AREA -->
+      <ScrollContainer
+        width="100%"
+        height="100%"
+        vertical="true"
+        horizontal="false">
+
+        <VBox class="sapUiSmallMargin">
+
+          <!-- FORM -->
+          <f:SimpleForm
+            editable="true"
+            layout="ResponsiveGridLayout">
+
+            <Label text="First Name" />
+            <Input id="firstName" placeholder="Enter first name" />
+
+            <Label text="Last Name" />
+            <Input id="lastName" placeholder="Enter last name" />
+
+            <Label text="Gender" />
+            <RadioButtonGroup id="gender" columns="3">
+              <RadioButton text="Male" />
+              <RadioButton text="Female" />
+              <RadioButton text="Other" />
+            </RadioButtonGroup>
+
+            <Label text="Age" />
+            <Input id="age" type="Number" placeholder="Enter age" />
+
+            <Label text="Mobile No" />
+            <Input id="mobile" type="Tel" placeholder="Enter 10 digit mobile" />
+
+            <Label text="Department" />
+            <Select id="department">
+              <items>
+                <core:Item key="" text="-- Select Department --" />
+                <core:Item key="HR" text="HR" />
+                <core:Item key="ENG" text="Engineering" />
+                <core:Item key="SALES" text="Sales" />
+                <core:Item key="FIN" text="Finance" />
+              </items>
+            </Select>
+
+            <Label text="Job Role" />
+            <Select id="jobRole">
+              <items>
+                <core:Item key="" text="-- Select Job Role --" />
+                <core:Item key="JR" text="Junior" />
+                <core:Item key="SR" text="Senior" />
+                <core:Item key="TL" text="Team Lead" />
+                <core:Item key="MG" text="Manager" />
+              </items>
+            </Select>
+
+            <Label text="Address" />
+            <TextArea id="address" rows="3" />
+
+            <Label text="Permanent Employee" />
+            <CheckBox id="isPermanent" text="Is Permanent?" />
+
+            <HBox class="sapUiSmallMarginTop">
+              <Button text="Submit" type="Emphasized" press="onSubmit" />
+              <Button text="Clear" press="onClear" class="sapUiSmallMarginBegin" />
+            </HBox>
+
+          </f:SimpleForm>
+
+          <Table
+            id="resultTable"
+            headerText="Employees" growing="true" growingThreshold="5"
+            class="sapUiResponsiveMargin" width="auto"
+            items="{/employees}">
+
+            <columns>
+              <Column>
+                <Text text="Name" />
+              </Column>
+              <Column>
+                <Text text="Gender" />
+              </Column>
+              <Column>
+                <Text text="Age" />
+              </Column>
+              <Column>
+                <Text text="Mobile" />
+              </Column>
+              <Column>
+                <Text text="Department" />
+              </Column>
+              <Column>
+                <Text text="Job Role" />
+              </Column>
+              <Column>
+                <Text text="Permanent" />
+              </Column>
+              <Column>
+                <Text text="Address" />
+              </Column>
+            </columns>
+
+            <items>
+              <ColumnListItem type="Active" press=".onItemPress">
+                <cells>
+                  <Text text="{name}" />
+                  <Text text="{gender}" />
+                  <Text text="{age}" />
+                  <Text text="{mobile}" />
+                  <Text text="{department}" />
+                  <Text text="{jobRole}" />
+                  <Text text="{permanent}" />
+                  <Text text="{address}" />
+                </cells>
+              </ColumnListItem>
+            </items>
+
+          </Table>
+        </VBox>
+      </ScrollContainer>
+    </HBox>
+  </Page>
+</mvc:View>

@@ -1,0 +1,451 @@
+<mvc:View
+    controllerName="firstapp.project1.controller.View4"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:f="sap.ui.layout.form"
+    xmlns:core="sap.ui.core"
+>
+    <Page
+        id="page"
+        title="Form Example"
+    >
+        <f:Form
+            id="FormDisplay354wideDual"
+            editable="true"
+        >
+            <f:title>
+                <core:Title text="Usage data" />
+            </f:title>
+
+            <f:layout>
+                <f:ColumnLayout
+                    columnsXL="3"
+                    columnsL="2"
+                    columnsM="1"
+                    emptyCellsLarge="0"
+                />
+            </f:layout>
+
+            <f:formContainers>
+                <f:FormContainer>
+                    <f:layoutData>
+                        <f:ColumnContainerData columnsL="2" />
+                    </f:layoutData>
+                    <f:formElements>
+                        <f:FormElement>
+                            <f:label>
+                                <Label text="Client">
+                                    <layoutData>
+                                        <f:ColumnElementData cellsLarge="4" />
+                                    </layoutData>
+                                </Label>
+                            </f:label>
+                            <f:fields>
+                                <Input
+                                    value="100"
+                                    editable="true"
+                                >
+                                    <layoutData>
+                                        <f:ColumnElementData cellsLarge="1" />
+                                    </layoutData>
+                                </Input>
+                            </f:fields>
+                        </f:FormElement>
+
+                        <f:FormElement>
+                            <f:label>
+                                <Label text="User">
+                                    <layoutData>
+                                        <f:ColumnElementData cellsLarge="4" />
+                                    </layoutData>
+                                </Label>
+                            </f:label>
+                            <f:fields>
+                                <Input
+                                    value="CB9980000000"
+                                    editable="true"
+                                >
+                                    <layoutData>
+                                        <f:ColumnElementData cellsLarge="3" />
+                                    </layoutData>
+                                </Input>
+                            </f:fields>
+                        </f:FormElement>
+
+                        <f:FormElement>
+                            <f:label>
+                                <Label text="Language">
+                                    <layoutData>
+                                        <f:ColumnElementData cellsLarge="4" />
+                                    </layoutData>
+                                </Label>
+                            </f:label>
+                            <f:fields>
+                                <Input
+                                    value="EN"
+                                    editable="true"
+                                >
+                                    <layoutData>
+                                        <f:ColumnElementData cellsLarge="1" />
+                                    </layoutData>
+                                </Input>
+                            </f:fields>
+                        </f:FormElement>
+
+                        <f:FormElement>
+                            <f:label>
+                                <Label text="Previous Logon">
+                                    <layoutData>
+                                        <f:ColumnElementData cellsLarge="6" />
+                                    </layoutData>
+                                </Label>
+                            </f:label>
+                            <f:fields>
+                                <Input
+                                    value="23.01.2026"
+                                    editable="true"
+                                >
+                                    <layoutData>
+                                        <f:ColumnElementData cellsLarge="3" />
+                                    </layoutData>
+                                </Input>
+                                <Input
+                                    value="05:01:04"
+                                    editable="true"
+                                >
+                                    <layoutData>
+                                        <f:ColumnElementData cellsLarge="2" />
+                                    </layoutData>
+                                </Input>
+                            </f:fields>
+                        </f:FormElement>
+
+                        <f:FormElement>
+                            <f:label>
+                                <Label text="Logon">
+                                    <layoutData>
+                                        <f:ColumnElementData cellsLarge="9" />
+                                    </layoutData>
+                                </Label>
+                            </f:label>
+                            <f:fields>
+                                <Input
+                                    value="05:01:04"
+                                    editable="true"
+                                >
+                                    <layoutData>
+                                        <f:ColumnElementData cellsLarge="2" />
+                                    </layoutData>
+                                </Input>
+                            </f:fields>
+                        </f:FormElement>
+
+                        <f:FormElement>
+                            <f:label>
+                                <Label text="System time">
+                                    <layoutData>
+                                        <f:ColumnElementData cellsLarge="9" />
+                                    </layoutData>
+                                </Label>
+                            </f:label>
+                            <f:fields>
+                                <Input
+                                    value="05:16:47"
+                                    editable="true"
+                                >
+                                    <layoutData>
+                                        <f:ColumnElementData cellsLarge="2" />
+                                    </layoutData>
+                                </Input>
+                            </f:fields>
+                        </f:FormElement>
+                    </f:formElements>
+                </f:FormContainer>
+            </f:formContainers>
+        </f:Form>
+
+        <f:Form
+            id="FormDisplay354wideDual1"
+            editable="true"
+        >
+            <f:title>
+                <core:Title text="SAP data" />
+            </f:title>
+
+            <f:layout>
+                <f:ColumnLayout
+                    columnsXL="4"
+                    columnsL="2"
+                    columnsM="1"
+                    emptyCellsLarge="0"
+                />
+            </f:layout>
+
+            <f:formContainers>
+                <f:FormContainer>
+                    <f:title>
+                        <core:Title
+                            text="Repository Data"
+                            class="sapUiSmallMargin title1"
+                        />
+                    </f:title>
+                    <f:layoutData>
+                        <f:ColumnContainerData columnsL="2" />
+                    </f:layoutData>
+                    <f:formElements>
+                        <f:FormElement>
+                            <f:label>
+                                <Label text="transactions">
+                                    <layoutData>
+                                        <f:ColumnElementData cellsLarge="6" />
+                                    </layoutData>
+                                </Label>
+                            </f:label>
+                            <f:fields>
+                                <Input
+                                    value="ME51N"
+                                    editable="true"
+                                >
+                                    <layoutData>
+                                        <f:ColumnElementData cellsLarge="6" />
+                                    </layoutData>
+                                </Input>
+                            </f:fields>
+                        </f:FormElement>
+                        <f:FormElement>
+                            <f:label>
+                                <Label text="Program (screen)">
+                                    <layoutData>
+                                        <f:ColumnElementData cellsLarge="6" />
+                                    </layoutData>
+                                </Label>
+                            </f:label>
+                            <f:fields>
+                                <Input
+                                    value="SAPLMEGUI"
+                                    editable="true"
+                                >
+                                    <layoutData>
+                                        <f:ColumnElementData cellsLarge="6" />
+                                    </layoutData>
+                                </Input>
+                            </f:fields>
+                        </f:FormElement>
+                        <f:FormElement>
+                            <f:label>
+                                <Label text="Program (Subdynpro)">
+                                    <layoutData>
+                                        <f:ColumnElementData cellsLarge="6" />
+                                    </layoutData>
+                                </Label>
+                            </f:label>
+                            <f:fields>
+                                <Input
+                                    value="SAPLMEGUI"
+                                    editable="true"
+                                >
+                                    <layoutData>
+                                        <f:ColumnElementData cellsLarge="6" />
+                                    </layoutData>
+                                </Input>
+                            </f:fields>
+                        </f:FormElement>
+                        <f:FormElement>
+                            <f:label>
+                                <Label text="Program (GUI)">
+                                    <layoutData>
+                                        <f:ColumnElementData cellsLarge="6" />
+                                    </layoutData>
+                                </Label>
+                            </f:label>
+                            <f:fields>
+                                <Input
+                                    value="SAPLMEGUI"
+                                    editable="true"
+                                >
+                                    <layoutData>
+                                        <f:ColumnElementData cellsLarge="6" />
+                                    </layoutData>
+                                </Input>
+                            </f:fields>
+                        </f:FormElement>
+                        <f:FormElement>
+                            <f:label>
+                                <Label text="Screen number">
+                                    <layoutData>
+                                        <f:ColumnElementData cellsLarge="6" />
+                                    </layoutData>
+                                </Label>
+                            </f:label>
+                            <f:fields>
+                                <Input
+                                    value="14"
+                                    editable="true"
+                                >
+                                    <layoutData>
+                                        <f:ColumnElementData cellsLarge="1" />
+                                    </layoutData>
+                                </Input>
+                            </f:fields>
+                        </f:FormElement>
+                        <f:FormElement>
+                            <f:label>
+                                <Label text="Screen number">
+                                    <layoutData>
+                                        <f:ColumnElementData cellsLarge="6" />
+                                    </layoutData>
+                                </Label>
+                            </f:label>
+                            <f:fields>
+                                <Input
+                                    value="3327"
+                                    editable="true"
+                                >
+                                    <layoutData>
+                                        <f:ColumnElementData cellsLarge="2" />
+                                    </layoutData>
+                                </Input>
+                            </f:fields>
+                        </f:FormElement>
+                        <f:FormElement>
+                            <f:label>
+                                <Label text="GUI status">
+                                    <layoutData>
+                                        <f:ColumnElementData cellsLarge="6" />
+                                    </layoutData>
+                                </Label>
+                            </f:label>
+                            <f:fields>
+                                <Input
+                                    value="REQ"
+                                    editable="true"
+                                >
+                                    <layoutData>
+                                        <f:ColumnElementData cellsLarge="5" />
+                                    </layoutData>
+                                </Input>
+                            </f:fields>
+                        </f:FormElement>
+                    </f:formElements>
+                </f:FormContainer>
+
+                <f:FormContainer>
+                    <f:title>
+                        <core:Title
+                            text="SAP System data"
+                            id="title2"
+                            class="sapUiSmallMargin"
+                        />
+                    </f:title>
+                    <f:layoutData>
+                        <f:ColumnContainerData columnsL="2" />
+                    </f:layoutData>
+                    <f:formElements>
+                        <f:FormElement>
+                            <f:label>
+                                <Label text="Product Version">
+                                    <layoutData>
+                                        <f:ColumnElementData cellsLarge="6" />
+                                    </layoutData>
+                                </Label>
+                            </f:label>
+                            <f:fields>
+                                <Input
+                                    value="SAP S/4HANA CLOUD 2508"
+                                    editable="true"
+                                >
+                                    <layoutData>
+                                        <f:ColumnElementData cellsLarge="6" />
+                                    </layoutData>
+                                </Input>
+                            </f:fields>
+                        </f:FormElement>
+                        <f:FormElement>
+                            <f:label>
+                                <Label text="Installation Number">
+                                    <layoutData>
+                                        <f:ColumnElementData cellsLarge="6" />
+                                    </layoutData>
+                                </Label>
+                            </f:label>
+                            <f:fields>
+                                <Input
+                                    value="0020848565"
+                                    editable="true"
+                                >
+                                    <layoutData>
+                                        <f:ColumnElementData cellsLarge="4" />
+                                    </layoutData>
+                                </Input>
+                            </f:fields>
+                        </f:FormElement>
+                        <f:FormElement>
+                            <f:label>
+                                <Label text="Unicode System">
+                                    <layoutData>
+                                        <f:ColumnElementData cellsLarge="6" />
+                                    </layoutData>
+                                </Label>
+                            </f:label>
+                            <f:fields>
+                                <Input
+                                    value="Yes"
+                                    editable="true"
+                                >
+                                    <layoutData>
+                                        <f:ColumnElementData cellsLarge="5" />
+                                    </layoutData>
+                                </Input>
+                            </f:fields>
+                        </f:FormElement>
+                        <!-- <f:FormElement
+                            id="hidden"
+                            visible="true">
+                            <f:label>
+                                <Label text="">
+                                    <layoutData>
+                                        <f:ColumnElementData cellsLarge="6" />
+                                    </layoutData>
+                                </Label>
+                            </f:label>
+                            <f:fields>
+                                <Input
+                                    value=""
+                                    editable="true"
+                                >
+                                    <layoutData>
+                                        <f:ColumnElementData cellsLarge="6" />
+                                    </layoutData>
+                                </Input>
+                            </f:fields>
+                        </f:FormElement> -->
+                        <f:FormElement>
+                            <f:label>
+                                <Label text="License Expires On">
+                                    <layoutData>
+                                        <f:ColumnElementData cellsLarge="6" />
+                                    </layoutData>
+                                </Label>
+                            </f:label>
+                            <f:fields>
+                                <Input
+                                    value="31.12.9999"
+                                    editable="true"
+                                >
+                                    <layoutData>
+                                        <f:ColumnElementData cellsLarge="3" />
+                                    </layoutData>
+                                </Input>
+                            </f:fields>
+                        </f:FormElement>
+                    </f:formElements>
+                </f:FormContainer>
+            </f:formContainers>
+        </f:Form>
+        <Button
+            press="onSubmit"
+            text="submit"
+        />
+    </Page>
+</mvc:View>

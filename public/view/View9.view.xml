@@ -1,0 +1,230 @@
+<mvc:View
+    controllerName="firstapp.project1.controller.View9"
+    xmlns="sap.m"
+    xmlns:viz="sap.viz.ui5.controls" xmlns:layout="sap.ui.layout"
+    xmlns:mvc="sap.ui.core.mvc" xmlns:viz.feeds="sap.viz.ui5.controls.common.feeds"
+    xmlns:viz.data="sap.viz.ui5.data" height="100%">
+
+    <Page>
+        <layout:Grid
+            containerQuery="true"
+            defaultSpan="XL2 L6 M6 S12"
+        >
+            <layout:FixFlex id='chartFixFlex' minFlexSize="250">
+                <layout:layoutData>
+                    <layout:GridData span='L8' />
+                </layout:layoutData>
+                <layout:flexContent>
+                    <viz:VizFrame id="idVizFrame" uiConfig="{applicationSet:'fiori'}"
+                        height='100%' width="100%" vizType='line'>
+                        <viz:dataset>
+                            <viz.data:FlattenedDataset data="{line>/Countries}">
+                                <viz.data:dimensions>
+                                    <viz.data:DimensionDefinition name="Country"
+                                        value="{line>Country}" />
+                                </viz.data:dimensions>
+                                <viz.data:measures>
+                                    <viz.data:MeasureDefinition name="Population"
+                                        value="{line>Population}" />
+
+                                </viz.data:measures>
+                            </viz.data:FlattenedDataset>
+                        </viz:dataset>
+
+                        <viz:feeds>
+                            <viz.feeds:FeedItem id='valueAxisFeed' uid="valueAxis" type="Measure"
+                                values="Population" />
+                            <viz.feeds:FeedItem id='categoryAxisFeed' uid="categoryAxis"
+                                type="Dimension"
+                                values="Country" />
+                        </viz:feeds>
+                        <viz:dependents>
+                            <viz:Popover id="idPopOver"></viz:Popover>
+                        </viz:dependents>
+                    </viz:VizFrame>
+                </layout:flexContent>
+            </layout:FixFlex>
+
+            <layout:FixFlex id='chartFixFlex3' minFlexSize="250">
+                <layout:layoutData>
+                    <layout:GridData span='L4' />
+                </layout:layoutData>
+                <layout:flexContent>
+                    <viz:VizFrame id="idVizFrame3" uiConfig="{applicationSet:'fiori'}"
+                        height='100%' width="100%" vizType='pie'>
+                        <viz:dataset>
+                            <viz.data:FlattenedDataset data="{pie>/Languages}">
+                                <viz.data:dimensions>
+                                    <viz.data:DimensionDefinition name="Language"
+                                        value="{pie>Language}" />
+                                </viz.data:dimensions>
+                                <viz.data:measures>
+                                    <viz.data:MeasureDefinition name="Speakers"
+                                        value="{pie>Speakers}" />
+                                </viz.data:measures>
+                            </viz.data:FlattenedDataset>
+                        </viz:dataset>
+
+                        <viz:feeds>
+                            <viz.feeds:FeedItem uid="size" type="Measure"
+                                values="Speakers" />
+                            <viz.feeds:FeedItem uid="color" type="Dimension"
+                                values="Language" />
+                        </viz:feeds>
+                        <viz:dependents>
+                            <viz:Popover id="idPopOver3"></viz:Popover>
+                        </viz:dependents>
+                    </viz:VizFrame>
+                </layout:flexContent>
+            </layout:FixFlex>
+
+            <layout:FixFlex id='chartFixFlex4' minFlexSize="250">
+                <layout:layoutData>
+                    <layout:GridData span='L4' />
+                </layout:layoutData>
+                <layout:flexContent>
+                    <viz:VizFrame id="idVizFram4" uiConfig="{applicationSet:'fiori'}"
+                        height='100%' width="100%" vizType='area'>
+                        <viz:dataset>
+                            <viz.data:FlattenedDataset data="{area>/Money}">
+                                <viz.data:dimensions>
+                                    <viz.data:DimensionDefinition name="Week"
+                                        value="{area>Week}" />
+                                </viz.data:dimensions>
+                                <viz.data:measures>
+                                    <viz.data:MeasureDefinition name="Share1"
+                                        value="{area>Share1}" />
+                                    <viz.data:MeasureDefinition name="Share2"
+                                        value="{area>Share2}" />
+                                    <viz.data:MeasureDefinition name="Share3"
+                                        value="{area>Share3}" />
+                                </viz.data:measures>
+                            </viz.data:FlattenedDataset>
+                        </viz:dataset>
+
+                        <viz:feeds>
+                            <viz.feeds:FeedItem id='valueAxisFeed4' uid="valueAxis" type="Measure"
+                                values="Share1" />
+                            <viz.feeds:FeedItem id='valueAxisFeed5' uid="valueAxis" type="Measure"
+                                values="Share2" />
+                            <viz.feeds:FeedItem id='valueAxisFeed6' uid="valueAxis" type="Measure"
+                                values="Share3" />
+                            <viz.feeds:FeedItem id='categoryAxisFeed4' uid="categoryAxis"
+                                type="Dimension"
+                                values="Week" />
+                        </viz:feeds>
+                        <viz:dependents>
+                            <viz:Popover id="idPopOver4"></viz:Popover>
+                        </viz:dependents>
+                    </viz:VizFrame>
+                </layout:flexContent>
+            </layout:FixFlex>
+
+            <layout:FixFlex id='chartFixFlex2' minFlexSize="250">
+                <layout:layoutData>
+                    <layout:GridData span='L8' />
+                </layout:layoutData>
+                <layout:flexContent>
+                    <viz:VizFrame id="idVizFrame2" uiConfig="{applicationSet:'fiori'}"
+                        height='100%' width="100%" vizType='column'>
+                        <viz:dataset>
+                            <viz.data:FlattenedDataset data="{line>/Countries}">
+                                <viz.data:dimensions>
+                                    <viz.data:DimensionDefinition name="Country"
+                                        value="{line>Country}" />
+                                </viz.data:dimensions>
+                                <viz.data:measures>
+                                    <viz.data:MeasureDefinition name="Population"
+                                        value="{line>Population}" />
+
+                                </viz.data:measures>
+                            </viz.data:FlattenedDataset>
+                        </viz:dataset>
+
+                        <viz:feeds>
+                            <viz.feeds:FeedItem id='valueAxisFeed2' uid="valueAxis" type="Measure"
+                                values="Population" />
+                            <viz.feeds:FeedItem id='categoryAxisFeed2' uid="categoryAxis"
+                                type="Dimension"
+                                values="Country" />
+                        </viz:feeds>
+                        <viz:dependents>
+                            <viz:Popover id="idPopOver2"></viz:Popover>
+                        </viz:dependents>
+                    </viz:VizFrame>
+                </layout:flexContent>
+            </layout:FixFlex>
+
+            <layout:FixFlex id='chartFixFlex5' minFlexSize="250">
+                <layout:layoutData>
+                    <layout:GridData span='L8' />
+                </layout:layoutData>
+                <layout:flexContent>
+                    <viz:VizFrame id="idVizFrame7" uiConfig="{applicationSet:'fiori'}"
+                        height='100%' width="100%" vizType='bar'>
+                        <viz:dataset>
+                            <viz.data:FlattenedDataset data="{bar>/Data}">
+                                <viz.data:dimensions>
+                                    <viz.data:DimensionDefinition name="product"
+                                        value="{bar>product}" />
+                                </viz.data:dimensions>
+                                <viz.data:measures>
+                                    <viz.data:MeasureDefinition name="price"
+                                        value="{bar>price}" />
+
+                                </viz.data:measures>
+                            </viz.data:FlattenedDataset>
+                        </viz:dataset>
+
+                        <viz:feeds>
+                            <viz.feeds:FeedItem id='valueAxisFeed7' uid="valueAxis" type="Measure"
+                                values="price" />
+                            <viz.feeds:FeedItem uid="categoryAxis" type="Dimension"
+                                values="product" />
+                        </viz:feeds>
+                        <viz:dependents>
+                            <viz:Popover id="idPopOver7"></viz:Popover>
+                        </viz:dependents>
+                    </viz:VizFrame>
+                </layout:flexContent>
+            </layout:FixFlex>
+
+            <layout:FixFlex id='chartFixFlex6' minFlexSize="250">
+                <layout:layoutData>
+                    <layout:GridData span='L4' />
+                </layout:layoutData>
+                <layout:flexContent>
+                    <viz:VizFrame id="idVizFrame10" uiConfig="{applicationSet:'fiori'}"
+                        height='100%' width="100%" vizType='scatter'>
+                        <viz:dataset>
+                            <viz.data:FlattenedDataset data="{scatter>/Data}">
+                                <viz.data:dimensions>
+                                    <viz.data:DimensionDefinition name="car"
+                                        value="{scatter>car}" />
+                                </viz.data:dimensions>
+                                <viz.data:measures>
+                                    <viz.data:MeasureDefinition name="avarage"
+                                        value="{scatter>avarage}" />
+                                    <viz.data:MeasureDefinition name="milage"
+                                        value="{scatter>milage}" />
+
+                                </viz.data:measures>
+                            </viz.data:FlattenedDataset>
+                        </viz:dataset>
+
+                        <viz:feeds>
+                            <viz.feeds:FeedItem uid="valueAxis" type="Measure"
+                                values="avarage" />
+                            <viz.feeds:FeedItem uid="valueAxis2" type="Measure"
+                                values="milage" />
+                        </viz:feeds>
+                        <viz:dependents>
+                            <viz:Popover id="idPopOver10"></viz:Popover>
+                        </viz:dependents>
+                    </viz:VizFrame>
+                </layout:flexContent>
+            </layout:FixFlex>
+
+        </layout:Grid>
+    </Page>
+</mvc:View>

@@ -1,0 +1,14 @@
+{
+  "Form": "Flight",
+  "CustomerName": "Jay Patel",
+  "Discount": 10,
+
+  "Street": "SG Highway",
+  "PostCode": "380015",
+  "City": "Ahmedabad",
+  "Country": "India",
+
+  "Email": "jay.patel@example.com",
+  "Telephone": "+91-9876543210"
+}
+

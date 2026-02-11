@@ -1,0 +1,19 @@
+{
+  "Products": [
+    {
+      "ProductID": 1,
+      "ProductName": "Gaming Laptop",
+      "Category": "Electronics"
+    },
+    {
+      "ProductID": 2,
+      "ProductName": "Ergonomic Chair",
+      "Category": "Furniture"
+    },
+    {
+      "ProductID": 3,
+      "ProductName": "Wireless Mouse",
+      "Category": "Accessories"
+    }
+  ]
+}

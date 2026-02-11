@@ -1,0 +1,9 @@
+{
+  "Data": [
+    { "car": "BMW", "avarage": 10, "milage": 200 },
+    { "car": "Audi", "avarage": 20, "milage": 300 },
+    { "car": "Swift", "avarage": 30, "milage": 40 },
+    { "car": "Lembo", "avarage": 5, "milage":500 },
+    { "car": "Thar", "avarage": 25, "milage": 100 }
+  ]
+}

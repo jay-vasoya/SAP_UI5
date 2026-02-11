@@ -1,0 +1,23 @@
+{
+  "client": "100",
+  "user": "CB9980000000",
+  "language": "EN",
+  "previousLogonDate": "23.01.2026",
+  "previousLogonTime": "05:01:04",
+  "logonTime": "05:01:04",
+  "systemTime": "05:16:47",
+
+  "transactions": "ME51N",
+  "programScreen": "SAPLMEGUI",
+  "programSubdynpro": "SAPLMEGUI",
+  "programGUI": "SAPLMEGUI",
+  "screenNumber1": "14",
+  "screenNumber2": "3327",
+  "guiStatus": "REQ",
+
+  "productVersion": "SAP S/4HANA CLOUD 2508",
+  "installationNumber": "0020848565",
+  "unicodeSystem": "Yes",
+  "licenseExpiresOn": "31.12.9999"
+}
+

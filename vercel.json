@@ -1,14 +1,4 @@
 {
-  "rewrites": [
-    {
-      "source": "/",
-      "destination": "/webapp/index.html"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "/webapp/$1"
-    }
-  ],
   "headers": [
     {
       "source": "/(.*)",
@@ -24,6 +14,10 @@
         {
           "key": "X-Frame-Options",
           "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "no-cache, no-store, must-revalidate"
         }
       ]
     }

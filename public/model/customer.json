@@ -1,0 +1,518 @@
+{
+  "Customers": [
+    {
+      "CustomerId":"1",
+      "CustomerName": "TAP SE",
+      "City": "Walldorf",
+      "_Bookings": [
+        {
+          "AirlineID": "AZ",
+          "FlightDate": "2024-02-27",
+          "BookingNumber": "2061",
+          "ForeignCurrencyPayment": 250000.0,
+          "IsCancelled": "No",
+          "Class": "C",
+          "ForeignCurrency": "INR"
+        },
+        {
+          "AirlineID": "AZ",
+          "FlightDate": "2024-02-28",
+          "BookingNumber": "7080",
+          "ForeignCurrencyPayment": 300.0,
+          "IsCancelled": "Yes",
+          "Class": "Y",
+          "ForeignCurrency": "USD"
+        },
+        {
+          "AirlineID": "DL",
+          "FlightDate": "2024-06-02",
+          "BookingNumber": "8494",
+          "ForeignCurrencyPayment": 15000.0,
+          "IsCancelled": "No",
+          "Class": "Y",
+          "ForeignCurrency": "USD"
+        },
+        {
+          "AirlineID": "LH",
+          "FlightDate": "2024-11-15",
+          "BookingNumber": "9123",
+          "ForeignCurrencyPayment": 980.0,
+          "IsCancelled": "No",
+          "Class": "F",
+          "ForeignCurrency": "EUR"
+        }
+      ]
+    },
+    {
+      "CustomerId":"2",
+      "CustomerName": "UAP SE",
+      "City": "abc",
+      "_Bookings": [
+        {
+          "AirlineID": "AZ",
+          "FlightDate": "2024-02-27",
+          "BookingNumber": "2061",
+          "ForeignCurrencyPayment": 250000.0,
+          "IsCancelled": "No",
+          "Class": "C",
+          "ForeignCurrency": "INR"
+        },
+        {
+          "AirlineID": "AZ",
+          "FlightDate": "2024-02-28",
+          "BookingNumber": "7080",
+          "ForeignCurrencyPayment": 300.0,
+          "IsCancelled": "Yes",
+          "Class": "Y",
+          "ForeignCurrency": "USD"
+        },
+        {
+          "AirlineID": "DL",
+          "FlightDate": "2024-06-02",
+          "BookingNumber": "8494",
+          "ForeignCurrencyPayment": 15000.0,
+          "IsCancelled": "No",
+          "Class": "Y",
+          "ForeignCurrency": "USD"
+        },
+        {
+          "AirlineID": "LH",
+          "FlightDate": "2024-11-15",
+          "BookingNumber": "9123",
+          "ForeignCurrencyPayment": 980.0,
+          "IsCancelled": "No",
+          "Class": "F",
+          "ForeignCurrency": "EUR"
+        }
+      ]
+    },
+    {
+      "CustomerId":"3",
+      "CustomerName": "TAP SE",
+      "City": "Walldorf",
+      "_Bookings": [
+        {
+          "AirlineID": "AZ",
+          "FlightDate": "2024-02-27",
+          "BookingNumber": "2061",
+          "ForeignCurrencyPayment": 250000.0,
+          "IsCancelled": "No",
+          "Class": "C",
+          "ForeignCurrency": "INR"
+        },
+        {
+          "AirlineID": "AZ",
+          "FlightDate": "2024-02-28",
+          "BookingNumber": "7080",
+          "ForeignCurrencyPayment": 300.0,
+          "IsCancelled": "Yes",
+          "Class": "Y",
+          "ForeignCurrency": "USD"
+        },
+        {
+          "AirlineID": "DL",
+          "FlightDate": "2024-06-02",
+          "BookingNumber": "8494",
+          "ForeignCurrencyPayment": 15000.0,
+          "IsCancelled": "No",
+          "Class": "Y",
+          "ForeignCurrency": "USD"
+        },
+        {
+          "AirlineID": "LH",
+          "FlightDate": "2024-11-15",
+          "BookingNumber": "9123",
+          "ForeignCurrencyPayment": 980.0,
+          "IsCancelled": "No",
+          "Class": "F",
+          "ForeignCurrency": "EUR"
+        }
+      ]
+    },
+    {
+      "CustomerId":"4",
+      "CustomerName": "UAP SE",
+      "City": "Walldorf",
+      "_Bookings": [
+        {
+          "AirlineID": "AZ",
+          "FlightDate": "2024-02-27",
+          "BookingNumber": "2061",
+          "ForeignCurrencyPayment": 250000.0,
+          "IsCancelled": "No",
+          "Class": "C",
+          "ForeignCurrency": "INR"
+        },
+        {
+          "AirlineID": "AZ",
+          "FlightDate": "2024-02-28",
+          "BookingNumber": "7080",
+          "ForeignCurrencyPayment": 300.0,
+          "IsCancelled": "Yes",
+          "Class": "Y",
+          "ForeignCurrency": "USD"
+        },
+        {
+          "AirlineID": "DL",
+          "FlightDate": "2024-06-02",
+          "BookingNumber": "8494",
+          "ForeignCurrencyPayment": 15000.0,
+          "IsCancelled": "No",
+          "Class": "Y",
+          "ForeignCurrency": "USD"
+        },
+        {
+          "AirlineID": "LH",
+          "FlightDate": "2024-11-15",
+          "BookingNumber": "9123",
+          "ForeignCurrencyPayment": 980.0,
+          "IsCancelled": "No",
+          "Class": "F",
+          "ForeignCurrency": "EUR"
+        }
+      ]
+    },
+    {
+      "CustomerId":"5",
+      "CustomerName": "Hans Bullinger",
+      "City": "Heidelberg",
+      "_Bookings": [
+        {
+          "AirlineID": "AA",
+          "FlightDate": "2024-10-12",
+          "BookingNumber": "6890",
+          "ForeignCurrencyPayment": 1000.0,
+          "IsCancelled": "No",
+          "Class": "F",
+          "ForeignCurrency": "USD"
+        },
+        {
+          "AirlineID": "JL",
+          "FlightDate": "2024-03-03",
+          "BookingNumber": "5369",
+          "ForeignCurrencyPayment": 775.0,
+          "IsCancelled": "Yes",
+          "Class": "C",
+          "ForeignCurrency": "USD"
+        },
+        {
+          "AirlineID": "BA",
+          "FlightDate": "2024-07-19",
+          "BookingNumber": "4421",
+          "ForeignCurrencyPayment": 5200.0,
+          "IsCancelled": "No",
+          "Class": "Y",
+          "ForeignCurrency": "GBP"
+        }
+      ]
+    },
+    {
+      "CustomerId":"6",
+      "CustomerName": "Infosys Ltd",
+      "City": "Bangalore",
+      "_Bookings": [
+        {
+          "AirlineID": "AI",
+          "FlightDate": "2024-04-05",
+          "BookingNumber": "7812",
+          "ForeignCurrencyPayment": 4500.0,
+          "IsCancelled": "No",
+          "Class": "C",
+          "ForeignCurrency": "INR"
+        },
+        {
+          "AirlineID": "AI",
+          "FlightDate": "2024-09-21",
+          "BookingNumber": "3344",
+          "ForeignCurrencyPayment": 950.0,
+          "IsCancelled": "Yes",
+          "Class": "Y",
+          "ForeignCurrency": "INR"
+        }
+      ]
+    },
+    {
+      "CustomerId":"7",
+      "CustomerName": "Tata Consultancy Services",
+      "City": "Mumbai",
+      "_Bookings": [
+        {
+          "AirlineID": "SQ",
+          "FlightDate": "2024-12-01",
+          "BookingNumber": "9001",
+          "ForeignCurrencyPayment": 22000.0,
+          "IsCancelled": "No",
+          "Class": "F",
+          "ForeignCurrency": "SGD"
+        },
+        {
+          "AirlineID": "EK",
+          "FlightDate": "2024-08-18",
+          "BookingNumber": "6710",
+          "ForeignCurrencyPayment": 1200.0,
+          "IsCancelled": "No",
+          "Class": "C",
+          "ForeignCurrency": "AED"
+        },
+        {
+          "AirlineID": "EK",
+          "FlightDate": "2024-01-10",
+          "BookingNumber": "1188",
+          "ForeignCurrencyPayment": 400.0,
+          "IsCancelled": "Yes",
+          "Class": "Y",
+          "ForeignCurrency": "AED"
+        }
+      ]
+    },
+    {
+      "CustomerId":"8",
+      "CustomerName": "SAP SE",
+      "City": "Walldorf",
+      "_Bookings": [
+        {
+          "AirlineID": "AZ",
+          "FlightDate": "2024-02-27",
+          "BookingNumber": "2061",
+          "ForeignCurrencyPayment": 250000.0,
+          "IsCancelled": "No",
+          "Class": "C",
+          "ForeignCurrency": "INR"
+        },
+        {
+          "AirlineID": "AZ",
+          "FlightDate": "2024-02-28",
+          "BookingNumber": "7080",
+          "ForeignCurrencyPayment": 300.0,
+          "IsCancelled": "Yes",
+          "Class": "Y",
+          "ForeignCurrency": "USD"
+        },
+        {
+          "AirlineID": "DL",
+          "FlightDate": "2024-06-02",
+          "BookingNumber": "8494",
+          "ForeignCurrencyPayment": 15000.0,
+          "IsCancelled": "No",
+          "Class": "Y",
+          "ForeignCurrency": "USD"
+        },
+        {
+          "AirlineID": "LH",
+          "FlightDate": "2024-11-15",
+          "BookingNumber": "9123",
+          "ForeignCurrencyPayment": 980.0,
+          "IsCancelled": "No",
+          "Class": "F",
+          "ForeignCurrency": "EUR"
+        },
+        {
+          "AirlineID": "AF",
+          "FlightDate": "2024-05-09",
+          "BookingNumber": "3311",
+          "ForeignCurrencyPayment": 4200.0,
+          "IsCancelled": "No",
+          "Class": "C",
+          "ForeignCurrency": "EUR"
+        }
+      ]
+    },
+    {
+      "CustomerId":"9",
+      "CustomerName": "Hans Bullinger",
+      "City": "Heidelberg",
+      "_Bookings": [
+        {
+          "AirlineID": "AA",
+          "FlightDate": "2024-10-12",
+          "BookingNumber": "6890",
+          "ForeignCurrencyPayment": 1000.0,
+          "IsCancelled": "No",
+          "Class": "F",
+          "ForeignCurrency": "USD"
+        },
+        {
+          "AirlineID": "JL",
+          "FlightDate": "2024-03-03",
+          "BookingNumber": "5369",
+          "ForeignCurrencyPayment": 775.0,
+          "IsCancelled": "Yes",
+          "Class": "C",
+          "ForeignCurrency": "USD"
+        },
+        {
+          "AirlineID": "BA",
+          "FlightDate": "2024-07-19",
+          "BookingNumber": "4421",
+          "ForeignCurrencyPayment": 5200.0,
+          "IsCancelled": "No",
+          "Class": "Y",
+          "ForeignCurrency": "GBP"
+        },
+        {
+          "AirlineID": "UA",
+          "FlightDate": "2024-12-22",
+          "BookingNumber": "1180",
+          "ForeignCurrencyPayment": 870.0,
+          "IsCancelled": "No",
+          "Class": "Y",
+          "ForeignCurrency": "USD"
+        }
+      ]
+    },
+    {
+      "CustomerId":"10",
+      "CustomerName": "Infosys Ltd",
+      "City": "Bangalore",
+      "_Bookings": [
+        {
+          "AirlineID": "AI",
+          "FlightDate": "2024-04-05",
+          "BookingNumber": "7812",
+          "ForeignCurrencyPayment": 4500.0,
+          "IsCancelled": "No",
+          "Class": "C",
+          "ForeignCurrency": "INR"
+        },
+        {
+          "AirlineID": "AI",
+          "FlightDate": "2024-09-21",
+          "BookingNumber": "3344",
+          "ForeignCurrencyPayment": 950.0,
+          "IsCancelled": "Yes",
+          "Class": "Y",
+          "ForeignCurrency": "INR"
+        },
+        {
+          "AirlineID": "UK",
+          "FlightDate": "2024-08-14",
+          "BookingNumber": "2299",
+          "ForeignCurrencyPayment": 11200.0,
+          "IsCancelled": "No",
+          "Class": "F",
+          "ForeignCurrency": "INR"
+        },
+        {
+          "AirlineID": "6E",
+          "FlightDate": "2024-01-18",
+          "BookingNumber": "4433",
+          "ForeignCurrencyPayment": 620.0,
+          "IsCancelled": "No",
+          "Class": "Y",
+          "ForeignCurrency": "INR"
+        }
+      ]
+    },
+    {
+      "CustomerId":"11",
+      "CustomerName": "Tata Consultancy Services",
+      "City": "Mumbai",
+      "_Bookings": [
+        {
+          "AirlineID": "SQ",
+          "FlightDate": "2024-12-01",
+          "BookingNumber": "9001",
+          "ForeignCurrencyPayment": 22000.0,
+          "IsCancelled": "No",
+          "Class": "F",
+          "ForeignCurrency": "SGD"
+        },
+        {
+          "AirlineID": "EK",
+          "FlightDate": "2024-08-18",
+          "BookingNumber": "6710",
+          "ForeignCurrencyPayment": 1200.0,
+          "IsCancelled": "No",
+          "Class": "C",
+          "ForeignCurrency": "AED"
+        },
+        {
+          "AirlineID": "EK",
+          "FlightDate": "2024-01-10",
+          "BookingNumber": "1188",
+          "ForeignCurrencyPayment": 400.0,
+          "IsCancelled": "Yes",
+          "Class": "Y",
+          "ForeignCurrency": "AED"
+        },
+        {
+          "AirlineID": "QR",
+          "FlightDate": "2024-09-29",
+          "BookingNumber": "5566",
+          "ForeignCurrencyPayment": 9800.0,
+          "IsCancelled": "No",
+          "Class": "C",
+          "ForeignCurrency": "QAR"
+        }
+      ]
+    },
+    {
+      "CustomerId":"12",
+      "CustomerName": "Reliance Industries",
+      "City": "Jamnagar",
+      "_Bookings": [
+        {
+          "AirlineID": "AI",
+          "FlightDate": "2024-06-11",
+          "BookingNumber": "7711",
+          "ForeignCurrencyPayment": 3300.0,
+          "IsCancelled": "No",
+          "Class": "Y",
+          "ForeignCurrency": "INR"
+        },
+        {
+          "AirlineID": "EK",
+          "FlightDate": "2024-10-05",
+          "BookingNumber": "8822",
+          "ForeignCurrencyPayment": 18500.0,
+          "IsCancelled": "No",
+          "Class": "F",
+          "ForeignCurrency": "AED"
+        },
+        {
+          "AirlineID": "BA",
+          "FlightDate": "2024-03-17",
+          "BookingNumber": "9933",
+          "ForeignCurrencyPayment": 710.0,
+          "IsCancelled": "Yes",
+          "Class": "C",
+          "ForeignCurrency": "GBP"
+        }
+      ]
+    },
+    {
+      "CustomerId":"13",
+      "CustomerName": "Google India",
+      "City": "Hyderabad",
+      "_Bookings": [
+        {
+          "AirlineID": "UA",
+          "FlightDate": "2024-07-07",
+          "BookingNumber": "6001",
+          "ForeignCurrencyPayment": 14300.0,
+          "IsCancelled": "No",
+          "Class": "C",
+          "ForeignCurrency": "USD"
+        },
+        {
+          "AirlineID": "AA",
+          "FlightDate": "2024-11-20",
+          "BookingNumber": "6002",
+          "ForeignCurrencyPayment": 890.0,
+          "IsCancelled": "No",
+          "Class": "Y",
+          "ForeignCurrency": "USD"
+        },
+        {
+          "AirlineID": "DL",
+          "FlightDate": "2024-02-14",
+          "BookingNumber": "6003",
+          "ForeignCurrencyPayment": 520.0,
+          "IsCancelled": "Yes",
+          "Class": "Y",
+          "ForeignCurrency": "USD"
+        }
+      ]
+    }
+  ]
+}

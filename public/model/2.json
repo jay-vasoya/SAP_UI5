@@ -1,0 +1,59 @@
+{
+  "ProductCollection": [
+    {
+      "ProductID": "P1001",
+      "Name": "Laptop Pro 15",
+      "Category": "Electronics",
+      "SupplierName": "TechSource",
+      "Price": 1200,
+      "CurrencyCode": "USD",
+      "WeightMeasure": 2200,
+      "Quantity": 25,
+      "Status": "Available"
+    },
+    {
+      "ProductID": "P1002",
+      "Name": "Wireless Mouse",
+      "Category": "Accessories",
+      "SupplierName": "TechSource",
+      "Price": 45,
+      "CurrencyCode": "USD",
+      "WeightMeasure": 150,
+      "Quantity": 120,
+      "Status": "Available"
+    },
+    {
+      "ProductID": "P1003",
+      "Name": "Mechanical Keyboard",
+      "Category": "Accessories",
+      "SupplierName": "KeyWorld",
+      "Price": 180,
+      "CurrencyCode": "USD",
+      "WeightMeasure": 950,
+      "Quantity": 0,
+      "Status": "Out of Stock"
+    },
+    {
+      "ProductID": "P1004",
+      "Name": "4K Monitor 27 inch",
+      "Category": "Electronics",
+      "SupplierName": "DisplayHub",
+      "Price": 650,
+      "CurrencyCode": "USD",
+      "WeightMeasure": 5200,
+      "Quantity": 18,
+      "Status": "Available"
+    },
+    {
+      "ProductID": "P1005",
+      "Name": "Noise Cancelling Headphones",
+      "Category": "Audio",
+      "SupplierName": "SoundMax",
+      "Price": 320,
+      "CurrencyCode": "USD",
+      "WeightMeasure": 400,
+      "Quantity": 45,
+      "Status": "Available"
+    }
+  ]
+}

@@ -13,7 +13,7 @@ sap.ui.define(
     return Controller.extend("firstapp.project1.controller.View2", {
       onInit: function () {
         let oModel = new JSONModel();
-        oModel.loadData("../model/customer.json").then((x) => {
+        oModel.loadData("./model/customer.json").then((x) => {
           this.getView().setModel(oModel, "customer");
         });
         oModel.setDefaultBindingMode("TwoWay");

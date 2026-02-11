@@ -1,14 +1,12 @@
 {
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
   "rewrites": [
     {
       "source": "/",
-      "destination": "/resources/firstapp/project1/index.html"
+      "destination": "/webapp/index.html"
     },
     {
       "source": "/(.*)",
-      "destination": "/$1"
+      "destination": "/webapp/$1"
     }
   ],
   "headers": [
@@ -17,7 +15,7 @@
       "headers": [
         {
           "key": "Content-Security-Policy",
-          "value": "default-src 'self' https://sapui5.hana.ondemand.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://sapui5.hana.ondemand.com; style-src 'self' 'unsafe-inline' https://sapui5.hana.ondemand.com; img-src 'self' data: https:; font-src 'self' data: https://sapui5.hana.ondemand.com; connect-src 'self' https://sapui5.hana.ondemand.com"
+          "value": "default-src 'self' https://sapui5.hana.ondemand.com https://ui5.sap.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://sapui5.hana.ondemand.com https://ui5.sap.com; style-src 'self' 'unsafe-inline' https://sapui5.hana.ondemand.com https://ui5.sap.com; img-src 'self' data: https:; font-src 'self' data: https://sapui5.hana.ondemand.com https://ui5.sap.com; connect-src 'self' https://sapui5.hana.ondemand.com https://ui5.sap.com"
         },
         {
           "key": "X-Content-Type-Options",

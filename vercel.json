@@ -1,12 +1,14 @@
 {
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
   "rewrites": [
     {
       "source": "/",
-      "destination": "/webapp/index.html"
+      "destination": "/resources/firstapp/project1/index.html"
     },
     {
       "source": "/(.*)",
-      "destination": "/webapp/$1"
+      "destination": "/$1"
     }
   ],
   "headers": [

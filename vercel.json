@@ -1,43 +1,4 @@
 {
-  "headers": [
-    {
-      "source": "**/*.js",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "application/javascript; charset=utf-8"
-        }
-      ]
-    },
-    {
-      "source": "**/*.json",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "application/json; charset=utf-8"
-        }
-      ]
-    },
-    {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "Content-Security-Policy",
-          "value": "default-src 'self' https://sapui5.hana.ondemand.com https://ui5.sap.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://sapui5.hana.ondemand.com https://ui5.sap.com; style-src 'self' 'unsafe-inline' https://sapui5.hana.ondemand.com https://ui5.sap.com; img-src 'self' data: https:; font-src 'self' data: https://sapui5.hana.ondemand.com https://ui5.sap.com; connect-src 'self' https://sapui5.hana.ondemand.com https://ui5.sap.com"
-        },
-        {
-          "key": "X-Content-Type-Options",
-          "value": "nosniff"
-        },
-        {
-          "key": "X-Frame-Options",
-          "value": "SAMEORIGIN"
-        },
-        {
-          "key": "Cache-Control",
-          "value": "no-cache, no-store, must-revalidate"
-        }
-      ]
-    }
-  ]
+  "trailingSlash": false,
+  "cleanUrls": false
 }

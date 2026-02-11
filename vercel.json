@@ -1,0 +1,31 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/webapp/index.html"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/webapp/$1"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self' https://sapui5.hana.ondemand.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://sapui5.hana.ondemand.com; style-src 'self' 'unsafe-inline' https://sapui5.hana.ondemand.com; img-src 'self' data: https:; font-src 'self' data: https://sapui5.hana.ondemand.com; connect-src 'self' https://sapui5.hana.ondemand.com"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+<mvc:View
+    controllerName="firstapp.project1.controller.View6"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page title="Data Management Example">
+        <content>
+            <VBox class="sapUiSmallMargin">
+               
+
+                <Table id="productsTable"
+                    items="{path: 'productModel>/Products', parameters: {$$updateGroupId: 'productGroup'}}">
+                    <headerToolbar>
+                        <OverflowToolbar>
+                            <Title text="Products" />
+                            <ToolbarSpacer />
+                            <Button text="Suspend Requests" press=".onSuspendBinding" />
+                            <Button text="Resume &amp; Refresh" press=".onResumeAndRefresh" />
+                            <Button icon="sap-icon--refresh" press=".onRefreshData"
+                                tooltip="Force Refresh" />
+                        </OverflowToolbar>
+                    </headerToolbar>
+                    <columns>
+                        <Column>
+                            <Text text="Product Name" />
+                        </Column>
+                        <Column>
+                            <Text text="Category" />
+                        </Column>
+                    </columns>
+                    <items>
+                        <ColumnListItem>
+                            <cells>
+                                <Text text="{productModel>ProductName}" />
+                                <Text text="{productModel>Category}" />
+                            </cells>
+                        </ColumnListItem>
+                    </items>
+                </Table>
+            </VBox>
+        </content>
+    </Page>
+</mvc:View>

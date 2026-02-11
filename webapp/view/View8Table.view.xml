@@ -1,0 +1,136 @@
+<mvc:View
+    controllerName="firstapp.project1.controller.View8Table"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:f="sap.ui.layout.form"
+    xmlns:core="sap.ui.core">
+    <!-- {
+  "client": "100",
+  "user": "CB9980000000",
+  "language": "EN",
+  "previousLogonDate": "23.01.2026",
+  "previousLogonTime": "05:01:04",
+  "logonTime": "05:01:04",
+  "systemTime": "05:16:47",
+
+  "transactions": "ME51N",
+  "programScreen": "SAPLMEGUI",
+  "programSubdynpro": "SAPLMEGUI",
+  "programGUI": "SAPLMEGUI",
+  "screenNumber1": "14",
+  "screenNumber2": "3327",
+  "guiStatus": "REQ",
+
+  "productVersion": "SAP S/4HANA CLOUD 2508",
+  "installationNumber": "0020848565",
+  "unicodeSystem": "Yes",
+  "licenseExpiresOn": "31.12.9999"
+} -->
+
+    <Page
+        title="View8 Data Summary"
+        showNavButton="true"
+        navButtonPress=".onNavBack">
+        <content>
+
+            <HBox class="sapUiMediumMarginTop" justifyContent="End">
+                <Table
+                    id="resultTable"
+                    headerText="Employees" growing="true" growingThreshold="5"
+                    class="sapUiResponsiveMargin" width="auto"
+                    items="{view8Uni>/employess}">
+                    <columns>
+                        <Column>
+                            <Text text="Client" />
+                        </Column>
+                        <Column>
+                            <Text text="User" />
+                        </Column>
+                        <Column>
+                            <Text text="Language" />
+                        </Column>
+                        <Column>
+                            <Text text="Transaction" />
+                        </Column>
+                        <Column>
+                            <Text text="Program Screen" />
+                        </Column>
+                        <Column>
+                            <Text text="GUI Status" />
+                        </Column>
+                        <Column>
+                            <Text text="Product Version" />
+                        </Column>
+                        <Column>
+                            <Text text="License Expiry" />
+                        </Column>
+                        <Column>
+                            <Text text="transactions" />
+                        </Column>
+                        <Column>
+                            <Text text="programScreen" />
+                        </Column>
+                        <Column>
+                            <Text text="programSubdynpro" />
+                        </Column>
+                        <Column>
+                            <Text text="programGUI" />
+                        </Column>
+                        <Column>
+                            <Text text="screenNumber1" />
+                        </Column>
+                        <Column>
+                            <Text text="screenNumber2" />
+                        </Column>
+                        <Column>
+                            <Text text="guiStatus" />
+                        </Column>
+                        <Column>
+                            <Text text="productVersion" />
+                        </Column>
+                        <Column>
+                            <Text text="installationNumber" />
+                        </Column>
+                        <Column>
+                            <Text text="unicodeSystem" />
+                        </Column>
+                        <Column>
+                            <Text text="licenseExpiresOn" />
+                        </Column>
+
+                    </columns>
+
+                    <items>
+                        <ColumnListItem type="Active" press=".onItemPress">
+                            <cells>
+                                <Text text="{view8Uni>client}" />
+                                <Text text="{view8Uni>user}" />
+                                <Text text="{view8Uni>language}" />
+                                <Text text="{view8Uni>transactions}" />
+                                <Text text="{view8Uni>programScreen}" />
+                                <Text text="{view8Uni>guiStatus}" />
+                                <Text text="{view8Uni>productVersion}" />
+                                <Text text="{view8Uni>licenseExpiresOn}" />
+                                <Text text="{view8Uni>transactions}" />
+                                <Text text="{view8Uni>programScreen}" />
+                                <Text text="{view8Uni>programSubdynpro}" />
+                                <Text text="{view8Uni>programGUI}" />
+                                <Text text="{view8Uni>screenNumber1}" />
+                                <Text text="{view8Uni>screenNumber2}" />
+                                <Text text="{view8Uni>guiStatus}" />
+                                <Text text="{view8Uni>productVersion}" />
+                                <Text text="{view8Uni>installationNumber}" />
+                                <Text text="{view8Uni>unicodeSystem}" />
+                                <Text text="{view8Uni>licenseExpiresOn}" />
+
+                            </cells>
+                        </ColumnListItem>
+                    </items>
+
+                </Table>
+
+            </HBox>
+        </content>
+    </Page>
+
+</mvc:View>

@@ -1,0 +1,15 @@
+<mvc:View
+    controllerName="firstapp.project1.controller.View7"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:c="sap.ui.core"
+    >
+    <VBox>
+         <Text text="{userModel>/user/name}" />
+        <Button
+            text="Show User"
+            press="onShowUser" />
+    </VBox>
+       
+    
+</mvc:View>

@@ -1,0 +1,24 @@
+{
+  "Languages": [
+    {
+      "Language": "Hindi",
+      "Speakers": 341000000
+    },
+    {
+      "Language": "English",
+      "Speakers": 379000000
+    },
+    {
+      "Language": "Spanish",
+      "Speakers": 460000000
+    },
+    {
+      "Language": "Chinese",
+      "Speakers": 918000000
+    },
+    {
+      "Language": "Arabic",
+      "Speakers": 310000000
+    }
+  ]
+}

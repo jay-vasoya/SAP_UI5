@@ -1,0 +1,32 @@
+{
+  "Data": [
+    {
+      "price": 200,
+      "product": "Toy7"
+    },
+    {
+      "price": 300,
+      "product": "Toy1"
+    },
+    {
+      "price": 1000,
+      "product": "Toy2"
+    },
+    {
+      "price": 20,
+      "product": "Toy3"
+    },
+    {
+      "price": 2300,
+      "product": "Toy4"
+    },
+    {
+      "price": 340,
+      "product": "Toy5"
+    },
+    {
+      "price": 450,
+      "product": "Toy6"
+    }
+  ]
+}

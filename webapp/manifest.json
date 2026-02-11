@@ -1,0 +1,247 @@
+{
+  "_version": "1.76.0",
+  "sap.app": {
+    "id": "firstapp.project1",
+    "type": "application",
+    "i18n": "i18n/i18n.properties",
+    "applicationVersion": {
+      "version": "0.0.1"
+    },
+    "title": "{{appTitle}}",
+    "description": "{{appDescription}}",
+    "resources": "resources.json",
+    "sourceTemplate": {
+      "id": "@sap/generator-fiori:basic",
+      "version": "1.20.0",
+      "toolsId": "1f78c5fd-4ff6-4c8c-bd5e-f81151b9f51a"
+    }
+  },
+  "sap.ui": {
+    "technology": "UI5",
+    "icons": {
+      "icon": "",
+      "favIcon": "",
+      "phone": "",
+      "phone@2": "",
+      "tablet": "",
+      "tablet@2": ""
+    },
+    "deviceTypes": {
+      "desktop": true,
+      "tablet": true,
+      "phone": true
+    }
+  },
+  "sap.ui5": {
+    "flexEnabled": false,
+    "dependencies": {
+      "minUI5Version": "1.143.2",
+      "libs": {
+        "sap.m": {},
+        "sap.ui.core": {},
+        "sap.ui.layout": {}
+      }
+    },
+    "contentDensities": {
+      "compact": true,
+      "cozy": true
+    },
+    "models": {
+      "i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "settings": {
+          "bundleName": "firstapp.project1.i18n.i18n"
+        }
+      },
+      "": {
+        "type": "sap.ui.model.json.JSONModel",
+        "uri": "model/customer.json"
+      },
+      "view8Uni": {
+        "type": "sap.ui.model.json.JSONModel",
+        "uri": "model/View8Table.json"
+      },
+      "view8": {
+        "type": "sap.ui.model.json.JSONModel",
+        "uri": "model/view8.json"
+      },
+      "line": {
+        "type": "sap.ui.model.json.JSONModel",
+        "uri": "model/Line.json"
+      },
+      "pie": {
+        "type": "sap.ui.model.json.JSONModel",
+        "uri": "model/Pie.json"
+      },
+      "area": {
+        "type": "sap.ui.model.json.JSONModel",
+        "uri": "model/Area.json"
+      },
+      "bar": {
+        "type": "sap.ui.model.json.JSONModel",
+        "uri": "model/Bar.json"
+      },
+      "scatter": {
+        "type": "sap.ui.model.json.JSONModel",
+        "uri": "model/Scatter.json"
+      }
+    },
+    "handleValidation": true,
+    "resources": {
+      "css": [
+        {
+          "uri": "css/style.css"
+        }
+      ]
+    },
+    "routing": {
+      "config": {
+        "routerClass": "sap.m.routing.Router",
+        "controlAggregation": "pages",
+        "controlId": "app",
+        "transition": "slide",
+        "type": "View",
+        "viewType": "XML",
+        "path": "firstapp.project1.view",
+        "async": true,
+        "viewPath": "firstapp.project1.view",
+        "bypassed": {
+          "target": "notFound"
+        }
+      },
+      "routes": [
+        {
+          "name": "RouteView1",
+          "pattern": "",
+          "target": "TargetView1"
+        },
+        {
+          "name": "RouteView2",
+          "pattern": "View2",
+          "target": "TargetView2"
+        },
+        {
+          "name": "RouteView3",
+          "pattern": "view3",
+          "target": "TargetView3"
+        },
+        {
+          "name": "RouteView4",
+          "pattern": "view4",
+          "target": "TargetView4"
+        },
+        {
+          "name": "RouteView5",
+          "pattern": "view5",
+          "target": "TargetView5"
+        },
+        {
+          "name": "RouteView6",
+          "pattern": "view6",
+          "target": "TargetView6"
+        },
+        {
+          "name": "RouteView7",
+          "pattern": "view7",
+          "target": "TargetView7"
+        },
+        {
+          "name": "RouteView8",
+          "pattern": "view8",
+          "target": "TargetView8"
+        },
+        {
+          "name": "RouteView9",
+          "pattern": "view9",
+          "target": "TargetView9"
+        },
+        {
+          "name": "RouteView8Summary",
+          "pattern": "view8Summary",
+          "target": "TargetView8Summary"
+        },
+        {
+          "name": "RouteView8Table",
+          "pattern": "view8Table",
+          "target": "TargetView8Table"
+        },
+        {
+          "name": "RouteView8Detail",
+          "pattern": "view8Detail/{index}",
+          "target": "TargetView8Detail"
+        },
+
+        {
+          "name": "detail",
+          "pattern": "detail/{customerId}",
+          "target": "TargetDetail"
+        }
+      ],
+      "targets": {
+        "TargetView1": {
+          "viewId": "View1",
+          "viewName": "View1"
+        },
+        "TargetView2": {
+          "viewId": "View2",
+          "viewName": "View2"
+        },
+        "TargetView3": {
+          "viewId": "View3",
+          "viewName": "View3"
+        },
+        "TargetView4": {
+          "viewId": "View4",
+          "viewName": "View4"
+        },
+        "TargetView5": {
+          "viewId": "View5",
+          "viewName": "View5"
+        },
+        "TargetView6": {
+          "viewId": "View6",
+          "viewName": "View6"
+        },
+        "TargetView7": {
+          "viewId": "View7",
+          "viewName": "View7"
+        },
+        "TargetView8": {
+          "viewId": "View8",
+          "viewName": "View8"
+        },
+        "TargetView9": {
+          "viewId": "View9",
+          "viewName": "View9"
+        },
+        "TargetView8Summary": {
+          "viewId": "View8Summary",
+          "viewName": "View8Summary"
+        },
+        "TargetView8Table": {
+          "viewId": "View8Table",
+          "viewName": "View8Table"
+        },
+        "TargetDetail": {
+          "id": "detail",
+          "name": "Detail"
+        },
+        "TargetView8Detail": {
+          "viewId": "View8Detail",
+          "viewName": "View8Detail"
+        },
+        "notFound": {
+          "viewId": "NotFound",
+          "viewName": "NotFound",
+          "transition": "show"
+        }
+      }
+    },
+    "rootView": {
+      "viewName": "firstapp.project1.view.App",
+      "type": "XML",
+      "id": "App",
+      "async": true
+    }
+  }
+}

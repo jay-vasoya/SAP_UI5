@@ -1,0 +1,9 @@
+<core:FragmentDefinition
+  xmlns="sap.m"
+  xmlns:core="sap.ui.core">
+
+  <Dialog title="My Dialog">
+    <Button text="OK" press=".onOkPress"/>
+  </Dialog>
+
+</core:FragmentDefinition>

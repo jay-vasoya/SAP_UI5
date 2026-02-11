@@ -1,0 +1,11 @@
+{
+    "Money": [
+        {"Week":1,"Share1":20,"Share2":30,"Share3":40},
+        {"Week":2,"Share1":10,"Share2":50,"Share3":20},
+        {"Week":3,"Share1":30,"Share2":20,"Share3":50},
+        {"Week":4,"Share1":40,"Share2":10,"Share3":30},
+        {"Week":5,"Share1":50,"Share2":40,"Share3":10}
+               
+    ]
+}
+

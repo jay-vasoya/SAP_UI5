@@ -1,0 +1,192 @@
+<mvc:View
+    controllerName="firstapp.project1.controller.View8Detail"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:f="sap.f"
+    xmlns:card="sap.f.cards"
+    xmlns:layout="sap.ui.layout"
+    xmlns:core="sap.ui.core"
+    displayBlock="true">
+    
+    <Page
+        title="Employee Detail"
+        showNavButton="true"
+        navButtonPress=".onNavBack"
+        class="sapUiResponsiveContentPadding">
+        
+        <content>
+            <ScrollContainer height="100%" width="100%" vertical="true">
+                <layout:VerticalLayout width="100%" class="sapUiSmallMargin">
+                    
+                    <!-- Header Card -->
+                    <f:Card class="sapUiMediumMarginBottom" width="100%">
+                        <f:header>
+                            <card:Header
+                                title="{detail>/user}"
+                                subtitle="User Information"
+                                iconSrc="sap-icon://employee" />
+                        </f:header>
+                        <f:content>
+                            <VBox class="sapUiSmallMargin">
+                                <HBox justifyContent="SpaceBetween" class="sapUiTinyMarginBottom">
+                                    <VBox width="48%">
+                                        <Label text="Client" class="sapUiTinyMarginBottom" design="Bold" />
+                                        <Text text="{detail>/client}" class="sapUiSmallMarginBottom" />
+                                    </VBox>
+                                    <VBox width="48%">
+                                        <Label text="Language" class="sapUiTinyMarginBottom" design="Bold" />
+                                        <Text text="{detail>/language}" class="sapUiSmallMarginBottom" />
+                                    </VBox>
+                                </HBox>
+                                <HBox justifyContent="SpaceBetween">
+                                    <VBox width="48%">
+                                        <Label text="User ID" class="sapUiTinyMarginBottom" design="Bold" />
+                                        <Text text="{detail>/user}" />
+                                    </VBox>
+                                    <VBox width="48%">
+                                        <Label text="Unicode System" class="sapUiTinyMarginBottom" design="Bold" />
+                                        <Text text="{detail>/unicodeSystem}" />
+                                    </VBox>
+                                </HBox>
+                            </VBox>
+                        </f:content>
+                    </f:Card>
+
+                    <!-- Login Information Card -->
+                    <f:Card class="sapUiMediumMarginBottom" width="100%">
+                        <f:header>
+                            <card:Header
+                                title="Login Information"
+                                iconSrc="sap-icon://history" />
+                        </f:header>
+                        <f:content>
+                            <VBox class="sapUiSmallMargin">
+                                <HBox justifyContent="SpaceBetween" class="sapUiTinyMarginBottom">
+                                    <VBox width="48%">
+                                        <Label text="Previous Logon Date" class="sapUiTinyMarginBottom" design="Bold" />
+                                        <Text text="{detail>/previousLogonDate}" class="sapUiSmallMarginBottom" />
+                                    </VBox>
+                                    <VBox width="48%">
+                                        <Label text="Previous Logon Time" class="sapUiTinyMarginBottom" design="Bold" />
+                                        <Text text="{detail>/previousLogonTime}" class="sapUiSmallMarginBottom" />
+                                    </VBox>
+                                </HBox>
+                                <HBox justifyContent="SpaceBetween">
+                                    <VBox width="48%">
+                                        <Label text="Current Logon Time" class="sapUiTinyMarginBottom" design="Bold" />
+                                        <Text text="{detail>/logonTime}" />
+                                    </VBox>
+                                    <VBox width="48%">
+                                        <Label text="System Time" class="sapUiTinyMarginBottom" design="Bold" />
+                                        <Text text="{detail>/systemTime}" />
+                                    </VBox>
+                                </HBox>
+                            </VBox>
+                        </f:content>
+                    </f:Card>
+
+                    <!-- Transaction Details Card -->
+                    <f:Card class="sapUiMediumMarginBottom" width="100%">
+                        <f:header>
+                            <card:Header
+                                title="Transaction Details"
+                                iconSrc="sap-icon://transaction" />
+                        </f:header>
+                        <f:content>
+                            <VBox class="sapUiSmallMargin">
+                                <HBox justifyContent="SpaceBetween" class="sapUiTinyMarginBottom">
+                                    <VBox width="48%">
+                                        <Label text="Transaction" class="sapUiTinyMarginBottom" design="Bold" />
+                                        <Text text="{detail>/transactions}" class="sapUiSmallMarginBottom" />
+                                    </VBox>
+                                    <VBox width="48%">
+                                        <Label text="GUI Status" class="sapUiTinyMarginBottom" design="Bold" />
+                                        <Text text="{detail>/guiStatus}" class="sapUiSmallMarginBottom" />
+                                    </VBox>
+                                </HBox>
+                            </VBox>
+                        </f:content>
+                    </f:Card>
+
+                    <!-- Program Information Card -->
+                    <f:Card class="sapUiMediumMarginBottom" width="100%">
+                        <f:header>
+                            <card:Header
+                                title="Program Information"
+                                iconSrc="sap-icon://source-code" />
+                        </f:header>
+                        <f:content>
+                            <VBox class="sapUiSmallMargin">
+                                <HBox justifyContent="SpaceBetween" class="sapUiTinyMarginBottom">
+                                    <VBox width="48%">
+                                        <Label text="Program Screen" class="sapUiTinyMarginBottom" design="Bold" />
+                                        <Text text="{detail>/programScreen}" class="sapUiSmallMarginBottom" />
+                                    </VBox>
+                                    <VBox width="48%">
+                                        <Label text="Program Subdynpro" class="sapUiTinyMarginBottom" design="Bold" />
+                                        <Text text="{detail>/programSubdynpro}" class="sapUiSmallMarginBottom" />
+                                    </VBox>
+                                </HBox>
+                                <HBox justifyContent="SpaceBetween" class="sapUiTinyMarginBottom">
+                                    <VBox width="48%">
+                                        <Label text="Program GUI" class="sapUiTinyMarginBottom" design="Bold" />
+                                        <Text text="{detail>/programGUI}" />
+                                    </VBox>
+                                    <VBox width="48%">
+                                        <Label text="Screen Number 1" class="sapUiTinyMarginBottom" design="Bold" />
+                                        <Text text="{detail>/screenNumber1}" />
+                                    </VBox>
+                                </HBox>
+                                <HBox justifyContent="SpaceBetween">
+                                    <VBox width="48%">
+                                        <Label text="Screen Number 2" class="sapUiTinyMarginBottom" design="Bold" />
+                                        <Text text="{detail>/screenNumber2}" />
+                                    </VBox>
+                                </HBox>
+                            </VBox>
+                        </f:content>
+                    </f:Card>
+
+                    <!-- System Information Card -->
+                    <f:Card class="sapUiMediumMarginBottom" width="100%">
+                        <f:header>
+                            <card:Header
+                                title="System Information"
+                                iconSrc="sap-icon://system-exit" />
+                        </f:header>
+                        <f:content>
+                            <VBox class="sapUiSmallMargin">
+                                <VBox class="sapUiTinyMarginBottom">
+                                    <Label text="Product Version" class="sapUiTinyMarginBottom" design="Bold" />
+                                    <Text text="{detail>/productVersion}" class="sapUiSmallMarginBottom" />
+                                </VBox>
+                                <HBox justifyContent="SpaceBetween" class="sapUiTinyMarginBottom">
+                                    <VBox width="48%">
+                                        <Label text="Installation Number" class="sapUiTinyMarginBottom" design="Bold" />
+                                        <Text text="{detail>/installationNumber}" />
+                                    </VBox>
+                                    <VBox width="48%">
+                                        <Label text="License Expires On" class="sapUiTinyMarginBottom" design="Bold" />
+                                        <Text text="{detail>/licenseExpiresOn}" />
+                                    </VBox>
+                                </HBox>
+                            </VBox>
+                        </f:content>
+                    </f:Card>
+
+                </layout:VerticalLayout>
+            </ScrollContainer>
+        </content>
+        
+        <footer>
+            <OverflowToolbar>
+                <ToolbarSpacer />
+                <Button
+                    text="Back to List"
+                    press=".onNavBack"
+                    type="Emphasized"
+                    icon="sap-icon://list" />
+            </OverflowToolbar>
+        </footer>
+    </Page>
+</mvc:View>

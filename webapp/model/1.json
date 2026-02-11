@@ -1,0 +1,24 @@
+{
+  "employees": [
+    {
+      "name": "Rahul Sharma",
+      "gender": "Male",
+      "age": 28,
+      "mobile": "9876543210",
+      "department": "IT",
+      "jobRole": "Developer",
+      "permanent": "Yes",
+      "address": "Ahmedabad, Gujarat"
+    },
+    {
+      "name": "Priya Patel",
+      "gender": "Female",
+      "age": 25,
+      "mobile": "9123456789",
+      "department": "HR",
+      "jobRole": "HR Executive",
+      "permanent": "No",
+      "address": "Surat, Gujarat"
+    }
+  ]
+}

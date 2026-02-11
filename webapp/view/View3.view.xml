@@ -1,0 +1,23 @@
+<mvc:View
+  controllerName="firstapp.project1.controller.View3"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns:core="sap.ui.core"
+  xmlns:f="sap.ui.layout.form"
+  xmlns="sap.m">
+  <Page title="Data Binding Analysis">
+   <VBox id="box" binding="{userModel>/user}">
+    
+    <Input
+      id="inpName"
+      value="{
+        path: 'userModel>name',
+        mode: 'TwoWay'
+      }"/>
+
+    <Button
+      text="Analyze Binding"
+      press="onAnalyze"/>
+
+  </VBox>
+  </Page>
+</mvc:View>
